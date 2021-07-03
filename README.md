@@ -1,5 +1,5 @@
 # math-aplication-JS-PD
-
+https://jefersonsteven.github.io/math-aplication-JS-PD/
 # Porcentajes y Descuentos
 
 - Primer paso: definir las formulas
