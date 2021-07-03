@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+input {
+    width: 249px;
+    height: 34px;
+    border: none;
+    background: #F4F4F4;
+    box-shadow: inset 0px 3px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+    font-size: 1.35rem;
+}
+
+
+button {
+    width: 252px;
+    height: 34px;
+    border-radius: 6px;
+    background: #2F5DA8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -3px -4px 4px rgba(173, 173, 173, 0.25);
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #4180e4;
+    cursor: pointer;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Josefin Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+}
+
+header h1 {
+    display: flex;
+    align-items: center;
+}
+
+.card-container-calculate {
+    border-radius: 9px;
+    border: solid 5px #2F5DA8;
+    width: 282px;
+    height: 269px;
+}
+
+
+.card-container__form {
+    width: 249px;
+    height: 239px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.cupons {
+    width: 170px;
+    height: 34px;
+    border: none;
+    background: #F4F4F4;
+    box-shadow: inset 0px 3px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    color: rgb(27, 12, 12);
+    font-size: 1.35rem;
+    outline: none;
+    margin-left: 8px;
+}
+
+.card-container__title {
+    font-size: 2.4rem
+}
+
+.card-container-product__item {
+    width: 278px;
+    height: 371px;
+    background: #F4F4F4;
+    box-shadow: 0px 4px 8px rgba(207, 207, 207, 0.25), 0px -2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-container-product__item--p1 {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.card-container-product__item--p2 {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.card-container-product__item--container-imagen {
+    position: relative;
+    height: 250px;
+}
+
+.card-container-product__item--container-imagen img {
+    position: absolute;
+    bottom: -60px;
+    left: -165px;
+}
+
+.displayValueDiscount {
+    margin-top: 10px;
+}

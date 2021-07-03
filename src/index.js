@@ -50,4 +50,7 @@ const onClickButtonPriceDiscount = function () {
 
     const displayPercentageDiscount = document.getElementById("displayPercentageDiscount");
     displayPercentageDiscount.innerText = `-${discountCupon}%`
+
+    const displayValueDiscount = document.getElementById("displayValueDiscount");
+    displayValueDiscount.innerText = `Esto es lo que haz ahorrado: $${valorDiscount}`;
 }
