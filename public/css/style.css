@@ -109,12 +109,24 @@ header h1 {
     justify-content: space-between;
     margin-top: 20px;
 }
+.card-container-product__item--p1 h3:nth-child(2) {
+    font-size: 3.4rem;
+    color: #2F5DA8;
+}
 
 .card-container-product__item--p2 {
     display: flex;
     width: 80%;
     justify-content: space-between;
     margin-bottom: 20px;
+}
+
+.card-container-product__item--p2 h3:nth-child(2) {
+    color: #2F5DA8;
+}
+
+.card-container-product__item--p2 h3:nth-child(1) {
+    color: #919191;
 }
 
 .card-container-product__item--container-imagen {
